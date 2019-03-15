@@ -7,7 +7,7 @@ A simple python program to let your Raspberry Pi run Tiffany Tseng's Spin Device
 ## Hardware Requirements
 * Raspberry Pi
 * Raspberry Pi camera
-* SPIN (spin.media.mit.edu)
+* SPIN [spin.media.mit.edu](http://spin.media.mit.edu)
 
 
 ## Setup
