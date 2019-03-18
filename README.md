@@ -1,5 +1,8 @@
 # SpinControl
 A simple python program to let your Raspberry Pi run Tiffany Tseng's Spin Device [spin.media.mit.edu](http://spin.media.mit.edu)
+Once running, there is an Aim button and a Spin button. Aim turns the camera on for 10 seconds so that you can set up your rig, the Spin button will take 16 images, spinning your object 22.5 degrees between each image, and stitch them together into an animated GIF which will be placed in a folder named SpinGifs on your Pi Desktop.
+
+My goal was to make this simple to setup and use, taking a cue from its creator and her elegant tablet/phone apps. Please leave any problems / suggestion in [Issues](https://github.com/PCswanson/spincontrol/issues)
 
 ![alt text](https://github.com/PCswanson/spincontrol/blob/master/IMG_3986.jpg)
 
