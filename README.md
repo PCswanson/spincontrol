@@ -16,6 +16,11 @@ My goal was to make this simple to setup and use, taking a cue from its creator 
 ## Setup
 * Set up your Pi with the standard Raspian image. I hooked up a touchscreen I had handy, but this will work just the same with a mouse and keyboard.
 * Use the Setup program to enable the Pi Camera.
+* You will need to install the following packages (thanks to bsteinbach112 for pointing this out!):
+** guizero (and potentially libjpeg-dev) - https://lawsie.github.io/guizero/
+** pyserial -  https://pyserial.readthedocs.io/en/latest/pyserial.html
+** imagemagick - sudo apt-get update
+                  sudo apt-get install imagemagick
 * Use whatever setup you need to attach/rig/aim the camera. If you are in need of something, you can buy Pi Camera holders from Pimoroni or Adafruit or find files to 3D Print or Lasercut on multiple sites including thingiverse.com
 * Place spincontrol.py in your documents folder.
 * Create a spinTemp folder in your documents folder
