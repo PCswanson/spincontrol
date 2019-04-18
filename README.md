@@ -19,8 +19,9 @@ My goal was to make this simple to setup and use, taking a cue from its creator 
 * You will need to install the following packages (thanks to bsteinbach112 for pointing this out!):
   * guizero (and potentially libjpeg-dev) - https://lawsie.github.io/guizero/
   * pyserial -  https://pyserial.readthedocs.io/en/latest/pyserial.html
-  * imagemagick - sudo apt-get update
-                  sudo apt-get install imagemagick
+  * imagemagick
+   * sudo apt-get update
+   * sudo apt-get install imagemagick
 * Use whatever setup you need to attach/rig/aim the camera. If you are in need of something, you can buy Pi Camera holders from Pimoroni or Adafruit or find files to 3D Print or Lasercut on multiple sites including thingiverse.com
 * Place spincontrol.py in your documents folder.
 * Create a spinTemp folder in your documents folder
