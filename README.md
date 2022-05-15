@@ -34,6 +34,6 @@ My goal was to make this simple to setup and use, taking a cue from its creator 
 It has been some time since I first put this together, and Raspbian has continued to develop which has changed a few things. bsteinbach112
 forwared the following updates and suggestions for anyone working with an updated Raspbian installation.  Thanks!
 
-*Now that PI is not the default account name, a user may need to adjust the code to match the correct file locations.
-*PySerial seems to already be installed automatically.
-*My Spin was not showing up as a TTYUSB device, but rather as TTYACM0. I'm not sure what the difference is, but this tutorial helped me figure out what was going wrong: https://opensource.com/article/20/5/usb-port-raspberry-pi-python
+* Now that PI is not the default account name, a user may need to adjust the code to match the correct file locations.
+* PySerial seems to already be installed automatically.
+* My Spin was not showing up as a TTYUSB device, but rather as TTYACM0. I'm not sure what the difference is, but this tutorial helped me figure out what was going wrong: https://opensource.com/article/20/5/usb-port-raspberry-pi-python
